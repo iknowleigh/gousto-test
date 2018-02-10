@@ -66,9 +66,7 @@ class RecipeTest extends TestCase
 * @return void
 */
 	public function testCreateRecipe() {
-
 		$recipeData = factory(Recipe::class)->create();
 		$this->assertDatabaseHas('recipes', ['title' => $recipeData->title]);
-
     }
 }

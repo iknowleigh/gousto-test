@@ -13,14 +13,8 @@ Use App\Recipe;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
-
 Route::get('recipes/{filter?}', 'API\RecipesController@index')->name('recipes');
-
 Route::get('recipe/{id}', 'API\RecipesController@recipe')->name('recipe');
 Route::post('recipe/add', 'API\RecipesController@add')->name('add_recipe');
 Route::patch('recipe/edit/{id}', 'API\RecipesController@edit')->name('edit_recipe');
-
 Route::post('rating/add/{id}', 'API\RatingsController@add')->name('add_rating');

@@ -14,7 +14,7 @@ class Rating extends Model {
 
 	private $RulesArr = [
 		'add' => [
-			'rating' => ['required', 'integer']
+			'rating' => ['required', 'integer', 'Min:1', 'Max:5']
 		]
 	];
 

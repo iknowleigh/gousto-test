@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
 			$i = 0;
 			while ( ($row = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) {
 				if ($i !== 0) {
-					\DB::table('recipes')->insert(array(
+					DB::table('recipes')->insert(array(
 						'id' => $row[0],
 						'created_at' => \DateTime::createFromFormat('d/m/Y H:i:s', $row[1])->format('Y-m-d H:i:s'),
 						'updated_at' => \DateTime::createFromFormat('d/m/Y H:i:s', $row[2])->format('Y-m-d H:i:s'),

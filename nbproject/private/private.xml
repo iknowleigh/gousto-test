@@ -4,16 +4,21 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/Volumes/websites/Gousto/bootstrap/app.php</file>
-            <file>file:/Volumes/websites/Gousto/routes/api.php</file>
             <file>file:/Volumes/websites/Gousto/app/Rating.php</file>
             <file>file:/Volumes/websites/Gousto/tests/Feature/RatingTest.php</file>
             <file>file:/Volumes/websites/Gousto/app/Http/Controllers/Controller.php</file>
+            <file>file:/Volumes/websites/Gousto/app/Repositories/RatingRepository.php</file>
+            <file>file:/Volumes/websites/Gousto/tests/Feature/RecipeTest.php</file>
+            <file>file:/Volumes/websites/Gousto/app/Repositories/RecipeRepository.php</file>
+            <file>file:/Volumes/websites/Gousto/database/migrations/2018_02_08_203323_create_recipe_table.php</file>
+            <file>file:/Volumes/websites/Gousto/routes/api.php</file>
             <file>file:/Volumes/websites/Gousto/app/Http/Controllers/API/RecipesController.php</file>
             <file>file:/Volumes/websites/Gousto/config/app.php</file>
-            <file>file:/Volumes/websites/Gousto/tests/Feature/RecipeTest.php</file>
+            <file>file:/Volumes/websites/Gousto/routes/web.php</file>
             <file>file:/Volumes/websites/Gousto/app/Recipe.php</file>
+            <file>file:/Volumes/websites/Gousto/database/migrations/2018_02_08_203334_create_rating_table.php</file>
             <file>file:/Volumes/websites/Gousto/app/Http/Controllers/API/RatingsController.php</file>
-            <file>file:/Volumes/websites/Gousto/database/factories/ModelFactory.php</file>
+            <file>file:/Volumes/websites/Gousto/database/seeds/DatabaseSeeder.php</file>
         </group>
     </open-files>
 </project-private>

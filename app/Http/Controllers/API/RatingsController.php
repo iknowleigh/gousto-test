@@ -6,11 +6,6 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Repositories\RatingRepository;
 
-
-
-use App\Rating;
-use App\Recipe as Recipe;
-
 class RatingsController extends Controller {
 
 	protected $rating = null;

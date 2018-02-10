@@ -25,9 +25,7 @@ class RatingTest extends TestCase
 * @return void
 */
 	public function testCreateRating() {
-
 		$ratingData = factory(Rating::class)->create();
-
 		$this->assertDatabaseHas('ratings', ['id' => $ratingData->id]);
     }
 }
